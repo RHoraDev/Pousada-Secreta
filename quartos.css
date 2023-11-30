@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source", sans-serif;
+}
+
+.limitar-secao{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Top configs */
+
+.topo{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+.container-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: #3d3d3d;
+}
+
+.container-link-logo{
+    flex: 1 0 60%;
+}
+
+.container-link-logo a{
+    text-decoration: none;
+    font-size: 24px;
+    color:#3d3d3d;
+}
+
+.container-link-logo span{
+    color: #6592c9;
+}
+
+/* Config da Barra de Navegação */
+
+.container-navbar{
+    display: flex;
+    flex: 1 0 150px;
+    justify-content: space-between;
+}
+
+.link-topo{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+/* Main Configs */
+
+.container-banner{
+    width: 100%;
+    height: 30vh;
+    background-image: url("../src/img-fundo.jpg");
+    background-size: cover;
+}
+
+.container-titulo{
+    width: 100%;
+    padding: 100px 20px 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-titulo h2{
+    font-weight: 400;
+}
+
+.container-titulo p{
+    font-size: 14px;
+}
+
+.container-img-quarto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-img-quarto img{
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.container-informacao{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+ul{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+
+/* Rodapé */
+
+.container-rodape{
+    background-color: #49997d;
+    color: #fff;
+}
+
+.container-card-rodape{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-rodape{
+    display: flex;
+    flex: 1 0 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-rodape h4{
+    font-size: 22px;
+}
+
+.card-rodape a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.card-rodape p{
+    margin-left: 10px;
+}
+
+.card-rodape img{
+    width: 30px;
+    height: 30px;
+}
+
+.container-copyright{
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-top: 1px solid #3b7863;
+}
